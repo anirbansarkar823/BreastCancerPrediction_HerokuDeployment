@@ -15,3 +15,13 @@ About Heroku and steps for deployment of a machine learning end-to-end project o
         * The Gunicorn "Green Unicorn" is a Python Web Server Gateway Interface HTTP server which is used for running our python application instance. 
 	    * Our application's name is app.py, we thus set app name to be app as well
 
+    - Inside Heroku:
+        * create your account
+        * connect with githut (provide read/write accesses to all your repositories)
+        * provide the repository name to connect
+        * Then deploy the github branch (master or if anything else). Once deployed, click on "view" to see the deployment.
+        * via heroku terminal (which we can download from Heroku website), we can login to see the logs:
+            > heroku login
+            > heroku logs --app="app_name" > logs_appname.txt
+
+    - My application can be viewed here: https://breastcancerprediction-heroku.herokuapp.com/
