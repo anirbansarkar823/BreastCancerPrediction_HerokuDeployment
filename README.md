@@ -1,7 +1,7 @@
-Breast Cancer Prediction
-by Satyajit Pattnaik
+**Breast Cancer Prediction - End-to-End Deployment**
 
-* Find the tutorial here: https://www.youtube.com/watch?v=mS8N0eKOD3k&list=PLymcv5WXEpKg14VB_uDEYjruW-VTowEjk&index=2
+
+* Find the tutorial (heroku deployment) here: https://www.youtube.com/watch?v=mS8N0eKOD3k&list=PLymcv5WXEpKg14VB_uDEYjruW-VTowEjk&index=2
 
 About Heroku and steps for deployment of a machine learning end-to-end project on this cloud PaaS:
     - Heroku is the first cloud platform as a service (PaaS)
@@ -17,7 +17,7 @@ About Heroku and steps for deployment of a machine learning end-to-end project o
 
     - Inside Heroku:
         * create your account
-        * connect with githut (provide read/write accesses to all your repositories)
+        * connect with github (provide read/write accesses to all your repositories)
         * provide the repository name to connect
         * Then deploy the github branch (master or if anything else). Once deployed, click on "view" to see the deployment.
         * via heroku terminal (which we can download from Heroku website), we can login to see the logs:
