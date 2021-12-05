@@ -1,7 +1,13 @@
 **Breast Cancer Prediction - End-to-End Deployment**
+    - The target variable 'diagnosis' was having two values 'M' and 'B'. 'M' referring malignant indicates the presence of cancer.
 
+    - Have done feature scaling using Standardization i.e., all the featue values are centered around the mean (mean == 0) with a unit standard deviation
 
-* Find the tutorial (heroku deployment) here: https://www.youtube.com/watch?v=mS8N0eKOD3k&list=PLymcv5WXEpKg14VB_uDEYjruW-VTowEjk&index=2
+    - Used PCA to decompose the features to less number of features keeping all the variances from featues.
+
+    - Finally used Logistic Regression to do the classification
+
+* Find the tutorial (heroku deployment) by [Satyajit Pattnaik](https://www.youtube.com/watch?v=mS8N0eKOD3k&list=PLymcv5WXEpKg14VB_uDEYjruW-VTowEjk&index=2)
 
 About Heroku and steps for deployment of a machine learning end-to-end project on this cloud PaaS:
     - Heroku is the first cloud platform as a service (PaaS)
@@ -24,4 +30,4 @@ About Heroku and steps for deployment of a machine learning end-to-end project o
             > heroku login
             > heroku logs --app="app_name" > logs_appname.txt
 
-    - My application can be viewed here: https://breastcancerprediction-heroku.herokuapp.com/
+    - My application can be viewed [here](https://breastcancerprediction-heroku.herokuapp.com/)
